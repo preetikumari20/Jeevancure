@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | JeevanCure</title>
+    <meta name="description" content="Get in touch with JeevanCure for infrastructure, events, corporate solutions, taxation, manufacturing, and more. New Delhi, India.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar solid" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="jeevan-removebg-preview.png" alt="JeevanCure" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+                <span class="logo-text" style="display:none;">JeevanCure</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="container">
+            <br>
+
+            <h1>Let's Discuss Your Next Project</h1>
+            <p>Reach out to our team for partnerships, project inquiries, or corporate services. We respond promptly and professionally.</p>
+        </div>
+    </section>
+
+    <section class="contact section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info Card -->
+                <div class="contact-info-card">
+                    <h2 class="info-title">Get in Touch</h2>
+                    <p class="info-subtitle">We're here to help you build, grow, and deliver. Reach us by phone, email, or WhatsApp — or send a message using the form.</p>
+
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Headquarters</h4>
+                            <p>Office no -202, 2nd floor<br>New Delhi, DL 110059, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:jeevancure01@gmail.com">jeevancure01@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+918285620650">+91 8285620650</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p><a href="https://wa.me/918285620650" target="_blank" rel="noopener">Chat with us instantly</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Monday – Saturday<br>10:30 AM – 6:00 PM IST</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-globe"></i></div>
+                        <div>
+                            <h4>Service Areas</h4>
+                            <p>Delhi NCR & pan-India project delivery</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-quick-actions">
+                        <a href="tel:+918285620650" class="btn btn-primary"><i class="fas fa-phone-alt"></i> Call Now</a>
+                        <a href="https://wa.me/918285620650" target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form" id="contactForm">
+                    <h2 class="form-heading">Send a Message</h2>
+                    <p class="form-subheading">Tell us about your project. We'll get back within one business day.</p>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="you@company.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone (Optional)</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject / Service Interest</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a service</option>
+                            <option value="infrastructure">Infrastructure & Construction</option>
+                            <option value="events">Event Management</option>
+                            <option value="corporate">Corporate Solutions</option>
+                            <option value="taxation">Taxation & Compliance</option>
+                            <option value="manufacturing">Manufacturing</option>
+                            <option value="retail">Retail Development</option>
+                            <option value="media">Media & Entertainment</option>
+                            <option value="ooh">Outdoor Advertising</option>
+                            <option value="other">Other Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project or requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+
+                   <!-- Larger Map Section -->
+            <div class="map-section">
+                <div class="map-section-header">
+                    <span class="section-tag">Find Us</span>
+                    <h3>Our Location in New Delhi</h3>
+                    <p>Office no -202, 2nd floor · New Delhi, DL 110059</p>
+                </div>
+                <div class="map-container">
+                    <div class="map-overlay-badge">
+                        <i class="fas fa-building"></i>
+                        <div>
+                            <strong>JeevanCure HQ</strong>
+                            <span>New Delhi, DL 110059</span>
+                        </div>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.83937431854!2d77.0688975472578!3d28.52728034381099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="JeevanCure Headquarters - New Delhi">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+                        
+  
+
+    <section class="cta section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Prefer a Direct Conversation?</h2>
+                <p>Call us during business hours or message us on WhatsApp anytime. We look forward to understanding your goals and proposing the right path forward.</p>
+                <div style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
+                    <a href="tel:+918285620650" class="btn btn-primary btn-lg"><i class="fas fa-phone-alt"></i> +91 8285620650</a>
+                    <a href="https://wa.me/918285620650" target="_blank" rel="noopener" class="btn btn-lg btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                   
+                    <p>A multinational company delivering excellence in infrastructure, events, corporate services, taxation, manufacturing, and sustainable development.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://wa.me/918285620650" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Infrastructure</a></li>
+                        <li><a href="services.html">Event Management</a></li>
+                        <li><a href="services.html">Corporate Solutions</a></li>
+                        <li><a href="services.html">Taxation</a></li>
+                        <li><a href="services.html">Manufacturing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Office no -202 2nd floor, NEW DELHI, DL 110059</li>
+                        <li><i class="fas fa-envelope"></i> jeevancure01@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +91 8285620650</li>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/918285620650" target="_blank" rel="noopener">WhatsApp Chat</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 JeevanCure. All rights reserved. | Building Excellence Across Industries</p>
+            </div>
+        </div>
+    </footer>
+
+     <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/918285620650" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

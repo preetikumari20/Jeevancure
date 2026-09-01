@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | JeevanCure — Signature Portfolio</title>
+    <meta name="description" content="Explore JeevanCure's signature projects across residential, infrastructure, manufacturing, commercial, entertainment, and sustainability verticals.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar solid" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="jeevan-removebg-preview.png" alt="JeevanCure" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+                <span class="logo-text" style="display:none;">JeevanCure</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="container">
+        
+            <h1>Our Signature Projects</h1>
+            <p>Over the years we have delivered a diverse portfolio of residential, commercial, infrastructure, manufacturing, environmental, retail, media, and entertainment projects — each reflecting our commitment to quality, innovation, and sustainability.</p>
+        </div>
+    </section>
+
+    <section class="projects section">
+        <div class="container">
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
+                <button class="filter-btn" data-filter="manufacturing">Manufacturing</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="entertainment">Entertainment</button>
+                <button class="filter-btn" data-filter="sustainability">Sustainability</button>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <div class="project-card" data-category="residential">
+                    <div class="project-image" style="background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);">
+                        <div class="project-category">Residential Construction & Urban Development</div>
+                        <div class="project-number">01</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>NKG Habitation Building & Park, Dwarka, Delhi</h3>
+                        <p class="project-excerpt">Flagship residential development combining modern architecture, superior engineering, and community-focused landscaped park infrastructure.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Premium residential apartments</li>
+                            <li><i class="fas fa-check"></i> Landscaped gardens & jogging tracks</li>
+                            <li><i class="fas fa-check"></i> Children's play areas & recreation</li>
+                            <li><i class="fas fa-check"></i> Sustainable infrastructure</li>
+                        </ul>
+                        <button class="btn-view-more" data-project="1">View Full Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="manufacturing">
+                    <div class="project-image" style="background: linear-gradient(135deg, #065f46 0%, #059669 100%);">
+                        <div class="project-category">Manufacturing & Railway Supply Chain</div>
+                        <div class="project-number">02</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Railway Neer Drinking Water Bottles</h3>
+                        <p class="project-excerpt">Large-scale manufacturing and supply of premium packaged drinking water for railway passengers under strict hygiene and quality protocols.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Advanced purification technology</li>
+                            <li><i class="fas fa-check"></i> Hygienic automated bottling</li>
+                            <li><i class="fas fa-check"></i> Railway station supply network</li>
+                            <li><i class="fas fa-check"></i> Food-grade packaging</li>
+                        </ul>
+                        <button class="btn-view-more" data-project="2">View Full Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="infrastructure">
+                    <div class="project-image" style="background: linear-gradient(135deg, #7c2d12 0%, #c2410c 100%);">
+                        <div class="project-category">Infrastructure Development</div>
+                        <div class="project-number">03</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Railway Bridge Project, Delhi</h3>
+                        <p class="project-excerpt">Large-scale railway bridge engineered for maximum safety, durability, and improved urban mobility with reduced congestion.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Advanced structural engineering</li>
+                            <li><i class="fas fa-check"></i> Improved traffic connectivity</li>
+                            <li><i class="fas fa-check"></i> High-strength materials</li>
+                            <li><i class="fas fa-check"></i> Long operational lifespan</li>
+                        </ul>
+                        <button class="btn-view-more" data-project="3">View Full Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="sustainability">
+                    <div class="project-image" style="background: linear-gradient(135deg, #14532d 0%, #16a34a 100%);">
+                        <div class="project-category">Environmental Sustainability</div>
+                        <div class="project-number">04</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Rainwater Harvesting Projects</h3>
+                        <p class="project-excerpt">Multiple customized rainwater harvesting systems across Delhi NCR supporting groundwater recharge and sustainable water management.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Groundwater recharge systems</li>
+                            <li><i class="fas fa-check"></i> Water conservation solutions</li>
+                            <li><i class="fas fa-check"></i> Eco-friendly engineering</li>
+                            <li><i class="fas fa-check"></i> Reduced urban flooding</li>
+                        </ul>
+                        <button class="btn-view-more" data-project="4">View Full Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="commercial">
+                    <div class="project-image" style="background: linear-gradient(135deg, #1e3a5f 0%, #3b82f6 100%);">
+                        <div class="project-category">Commercial Construction</div>
+                        <div class="project-number">05</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Commercial Office Building</h3>
+                        <p class="project-excerpt">High-performance business infrastructure with modern office layouts, energy-efficient systems, and premium finishing for productivity.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Modern office spaces</li>
+                            <li><i class="fas fa-check"></i> Energy-efficient systems</li>
+                            <li><i class="fas fa-check"></i> Fire safety compliance</li>
+                            <li><i class="fas fa-check"></i> High-quality interiors</li>
+                        </ul>
+                        <button class="btn-view-more" data-project="5">View Full Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="residential">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4a044e 0%, #a21caf 100%);">
+                        <div class="project-category">Interior Design & Turnkey Solutions</div>
+                        <div class="project-number">06</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Luxury House Interior Design</h3>
+                        <p class="project-excerpt">Personalized luxury residential interiors combining elegance, comfort, modular kitchens, designer lighting, and meticulous craftsmanship.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Luxury interior design</li>
+                            <li><i class="fas fa-check"></i> Customized furniture</li>
+                            <li><i class="fas fa-check"></i> Modular kitchens</li>
+                            <li><i class="fas fa-check"></i> Turnkey execution</li>
+                        </ul>
+                        <button class="btn-view-more" data-project="6">View Full Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="entertainment">
+                    <div class="project-image" style="background: linear-gradient(135deg, #831843 0%, #db2777 100%);">
+                        <div class="project-category">Entertainment & Media</div>
+                        <div class="project-number">07</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Bollywood Film Production</h3>
+                        <p class="project-excerpt">Production support, logistics, and execution assistance for multiple successful Bollywood films between 2019–2025.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Batla House, Kahaani 2, Bhola</li>
+                            <li><i class="fas fa-check"></i> Bhool Bhulaiyaa 2, Honsla Rakh</li>
+                            <li><i class="fas fa-check"></i> Logistics & infrastructure</li>
+                            <li><i class="fas fa-check"></i> Project coordination</li>
+                        </ul>
+                        <button class="btn-view-more" data-project="7">View Full Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="commercial">
+                    <div class="project-image" style="background: linear-gradient(135deg, #0f172a 0%, #475569 100%);">
+                        <div class="project-category">Retail Development</div>
+                        <div class="project-number">08</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Pacific Mall Store Development</h3>
+                        <p class="project-excerpt">Complete retail store development delivering attractive commercial environments with optimized layouts and premium finishes.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Complete store setup</li>
+                            <li><i class="fas fa-check"></i> Retail interior design</li>
+                            <li><i class="fas fa-check"></i> Brand-focused layouts</li>
+                            <li><i class="fas fa-check"></i> Turnkey execution</li>
+                        </ul>
+                        <button class="btn-view-more" data-project="8">View Full Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="commercial">
+                    <div class="project-image" style="background: linear-gradient(135deg, #1c1917 0%, #78716c 100%);">
+                        <div class="project-category">Outdoor Advertising (OOH)</div>
+                        <div class="project-number">09</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Outdoor Advertising & Hoardings</h3>
+                        <p class="project-excerpt">High-impact outdoor campaigns across Connaught Place, airports, malls, and highways maximizing brand visibility nationwide.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Airport advertising</li>
+                            <li><i class="fas fa-check"></i> Premium hoardings</li>
+                            <li><i class="fas fa-check"></i> Strategic media placement</li>
+                            <li><i class="fas fa-check"></i> Campaign management</li>
+                        </ul>
+                        <button class="btn-view-more" data-project="9">View Full Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Have a Project in Mind?</h2>
+                <p>From residential communities and infrastructure to manufacturing, retail, and entertainment — we bring the same discipline and quality to every engagement.</p>
+                <a href="contact.html" class="btn btn-primary btn-lg">Start a Conversation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose"><i class="fas fa-times"></i></button>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                  
+                    <p>A multinational company delivering excellence in infrastructure, events, corporate services, taxation, manufacturing, and sustainable development.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Infrastructure</a></li>
+                        <li><a href="services.html">Event Management</a></li>
+                        <li><a href="services.html">Corporate Solutions</a></li>
+                        <li><a href="services.html">Taxation</a></li>
+                        <li><a href="services.html">Manufacturing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Office no -202 2nd floor, NEW DELHI, DL 110059</li>
+                        <li><i class="fas fa-envelope"></i> jeevancure01@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +91 8285620650</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 JeevanCure. All rights reserved. | Building Excellence Across Industries</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
